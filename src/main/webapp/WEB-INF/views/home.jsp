@@ -19,7 +19,7 @@
 						</a>
 					<p>
 						<a class="btn btn-default"
-							href="<c:url value="/produto/${produto.id}" />" />Saiba mais </a>
+							href="<c:url value="/produto/${produto.id}" />" />Saiba mais... </a>
 					<c:if test="${logado}">
 						<a class="btn btn-default"
 							href="<c:url value="/produto/${produto.id}/form" />" />Editar </a>
